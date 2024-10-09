@@ -10,6 +10,8 @@
 .top{
     background: rgba(0,0,0,0.2)url("assets/Title-Image.png");
     background-blend-mode: darken;
+    width: 100vw;
+    height: auto;
       
 }
 section{
@@ -178,4 +180,10 @@ footer{
     margin-top: 25px;
     margin-left: 46px;
     align-items: center;
+}
+
+@media only screen and (max-width:500px){
+    .menu-class{
+        display: none;
+    }   
 }
